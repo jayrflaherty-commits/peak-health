@@ -1,7 +1,7 @@
 """config.py — Peak Health newsletter configuration."""
 import os
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(override=True)
 
 NEWSLETTER_NAME        = "Peak Health"
 NEWSLETTER_DIR         = "peak-health"
