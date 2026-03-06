@@ -2,7 +2,7 @@ name: Peak Health — Daily Send
 
 on:
   schedule:
-    - cron: '45 11 * * *'   # 7:45 AM ET (11:45 UTC)
+    - cron: '15 4 * * *'   # 11 PM ET (generate night before, schedules for next morning)   # 7:45 AM ET (11:45 UTC)
   workflow_dispatch:
     inputs:
       date:

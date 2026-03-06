@@ -7,6 +7,7 @@ NEWSLETTER_NAME        = "Peak Health"
 NEWSLETTER_DIR         = "peak-health"
 TAGLINE                = "Science-backed wellness for a longer, stronger life"
 SEND_HOUR              = 7
+SEND_MINUTE            = 45
 TIMEZONE               = "America/New_York"
 ANTHROPIC_API_KEY      = os.getenv("ANTHROPIC_API_KEY", "")
 BEEHIIV_API_KEY        = os.getenv("PEAK_HEALTH_BEEHIIV_API_KEY", os.getenv("BEEHIIV_API_KEY", ""))
